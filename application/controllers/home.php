@@ -13,5 +13,12 @@ class Home extends CI_Controller {
 	   
 		
 	}
+	
+	
+	function profile(){
+		$this->load->helper('url');
+		
+		echo $this->uri->segment(2, 0);
+	}
 
 }
