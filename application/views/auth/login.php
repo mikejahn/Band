@@ -30,7 +30,7 @@
     <?php echo form_close();?>
 
 	<p><a href="<?php echo site_url('auth/create_user');?>">Register</a></p>
-	<p><a href="<?php echo site_url('auth/forgot_passwordr');?>">Forgot Password?</a></p>
+	<p><a href="<?php echo site_url('auth/forgot_password');?>">Forgot Password?</a></p>
 	
 
 

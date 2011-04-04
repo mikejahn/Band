@@ -14,7 +14,9 @@
       <?php echo form_input($last_name);?>
       </p>
       
-      
+      <p>Username:<br />
+      www.example.com/<?php echo form_input($username);?>
+      </p>
       
       <p>Email:<br />
       <?php echo form_input($email);?>
